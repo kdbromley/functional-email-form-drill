@@ -1,0 +1,60 @@
+h2 {
+  font-family: Montserrat, Raleway, sans-serif;
+  margin-left: 5px;
+}
+
+form {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+form label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: darkslategrey;
+  font-family: Roboto, "Open Sans", sans-serif;
+  margin-left: 5px;
+}
+
+form div label {
+  display: inline-block;
+}
+
+form textarea {
+  width: 90%;
+  height: 85%
+}
+form input, textarea {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+
+div {
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  color: darkslategrey;
+  font-family: Roboto, "Open Sans", sans-serif;
+  font-weight: normal;
+}
+
+.group {
+  display: flex;
+}
+
+.item {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.item-triple {
+  flex: 3
+}
