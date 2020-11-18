@@ -56,5 +56,9 @@ h4 {
 }
 
 .item-triple {
-  flex: 3
+  flex: 3;
+}
+
+.button {
+  display: inline-block;
 }
