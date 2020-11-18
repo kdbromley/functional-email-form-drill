@@ -11,18 +11,22 @@
  
  
  <body>
-  <form action="https://formspree.io/f/xwkwqwdd" method="post">
-    <label for="sender-name">Your name:</label>
-      <input id="sender-name" type="text" name="name">
-    <label for="email-address">Your email:</label>
-      <input id="email-address" type="text" name="reply-to">
-    <h4>Regarding:</h4> 
-      <input name="inquiry-type" type="radio" value="job-inquiry"><label for="job-inquiry">Intership Position</label><br>
-      <input name="inquiry-type" type="radio" value="thinkful"><label for="thinkful">Thinkful</label><br>
-      <input name="inquiry-type" type="radio" value="other-coding"><label for="other-coding">Something else</label>
-    <label for="form-message">Your message</label>
-      <textarea id="form-message" name="message" placeholder="What's up?"></textarea>
-    </form>
+   <h2>Contact Form:</h2>
+    <form action="https://formspree.io/f/xwkwqwdd" method="post" class="group">
+    <div class="item">
+      <label for="sender-name">Your name:</label>
+        <input id="sender-name" type="text" name="name">
+      <label for="email-address">Your email:</label>
+        <input id="email-address" type="text" name="reply-to">
+        <h4>Regarding:</h4> 
+        <input name="inquiry-type" type="radio" value="job-inquiry"><label for="job-inquiry">Intership Position</label><br>
+        <input name="inquiry-type" type="radio" value="thinkful"><label for="thinkful">Thinkful</label><br>
+       <input name="inquiry-type" type="radio" value="other-coding"><label for="other-coding">Something else</label>
+      </div>
+      <div class="item-triple">
+      <label for="form-message">Your message</label>
+        <textarea id="form-message" name="message" rows="4" placeholder="What's up?"></textarea>
+      </form>
       
 
 
@@ -31,7 +35,4 @@
 
  </body>
 
-
-
 </html>
-
