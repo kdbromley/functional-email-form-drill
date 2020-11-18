@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">   <!-- viewport for mobile first, control page scaling when rendering -->
+	<title>WEBPAGE TITLE</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" /> <!-- nomalize css -->
+	<link href="style.css" rel="stylesheet" type="text/css" />
+ </head>
+ 
+ 
+ <body>
+  <form action="https://formspree.io/f/xwkwqwdd" method="post">
+    <label for="sender-name">Your name:</label>
+      <input id="sender-name" type="text" name="name">
+    <label for="email-address">Your email:</label>
+      <input id="email-address" type="text" name="reply-to">
+    <h4>Regarding:</h4> 
+      <input name="inquiry-type" type="radio" value="job-inquiry"><label for="job-inquiry">Intership Position</label><br>
+      <input name="inquiry-type" type="radio" value="thinkful"><label for="thinkful">Thinkful</label><br>
+      <input name="inquiry-type" type="radio" value="other-coding"><label for="other-coding">Something else</label>
+    <label for="form-message">Your message</label>
+      <textarea id="form-message" name="message" placeholder="What's up?"></textarea>
+    </form>
+      
+
+
+  <script src="script.js">
+  </script>
+
+ </body>
+
+
+
+</html>
+
